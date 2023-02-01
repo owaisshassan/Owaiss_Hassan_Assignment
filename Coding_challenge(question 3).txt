@@ -1,0 +1,40 @@
+			======CODING CHALLENGE=====
+
+Question 3: what are the key things you would consider when 
+			creating/consuming an API to ensure that it is secure and reliable?
+			
+Solution 3 :
+	
+	While creating/consuming an API, I would ensure many things for security purposes.
+	Few of them are as follows :
+	
+	a. I would take a serious care of authentication and authorization modules.
+		It will allow me to secure the API from any invalid users and admins.
+		Also, It will always check the credentials of users to authenticate them to use 
+		my API.
+		
+	b. 	I will perform data validation in my API so that no one will be able to provide 
+		invalid or wrong data and will always get a check message or error message while 
+		passing the wrong data to the server. 
+				Example :  "password should be atleast 6-8 characters"
+	
+	c. 	I will make sure that I'm passing the necessary information only and I would achieve 
+		this by proper help of abstraction and encapsulation in Object oriented programming.
+		
+	d. 	By enabling Spring Security in my API using SecurityFilterChain	method and
+		password encoders.
+	
+	e. By making sure that the data is possible encrypted and the sensitive information is 
+		hashed. I will achieve this by taking help of various hashing algorithms.
+		
+	
+	All these steps will make my API strong enough to face any data breach or attack from
+	hackers.	
+
+
+
+
+
+
+
+Note :For Solution of 1 and 2, please check code.

@@ -1,0 +1,20 @@
+1.
+I would first parse the input into any data structure to tackle this challenge. Then I would loop through each cell and evaluate its value.
+If it's a number, I would store it as it is.
+If it's a formula, I would use an evaluator library to parse and evaluate the expression. After that, I would store the result in the cell.
+At the end, I would write the result back to a CSV file.
+
+
+2.
+To ensure the code works correctly, I would check for a number of errors:
+Incorrect or unsupported formula syntax, e.g. missing parentheses or unknown operators,
+Circular references,
+Incorrect data type of cells.
+
+
+3.
+a.Providing invalid input.
+b.Providing a formula that the expression evaluator library cannot handle.
+c.Creating a circular reference in the formula.
+d.Referencing a non-existing cell.
+To mitigate these issues, I would add error checks and validation to the code to handle invalid input, and provide informative error messages to the user in case of any errors.
